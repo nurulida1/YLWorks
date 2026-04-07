@@ -22,9 +22,9 @@ import {
   GridifyQueryExtend,
 } from '../../shared/helpers/helpers';
 import { CalendarOptions } from '@fullcalendar/core/index.js';
-import dayGridPlugin from '@fullcalendar/daygrid';
-import timeGridPlugin from '@fullcalendar/timegrid';
-import interactionPlugin from '@fullcalendar/interaction';
+import dayGridPlugin from '@fullcalendar/daygrid/index.js';
+import timeGridPlugin from '@fullcalendar/timegrid/index.js';
+import interactionPlugin from '@fullcalendar/interaction/index.js';
 
 @Component({
   selector: 'app-to-do',
